@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:elevation="2dp"
+    android:gravity="center_vertical">
+
+    <!-- Premier TextView pour le titre -->
+    <TextView
+        android:id="@+id/tvDatePropose"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Titre"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:paddingEnd="8dp" />
+
+    <!-- Deuxième TextView pour la description -->
+    <TextView
+        android:id="@+id/tvSpePorpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="14sp"
+        android:textColor="#666666" />
+
+</LinearLayout>
